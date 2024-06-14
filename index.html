@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend 1 - Internal CSS</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0faff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            max-width: 400px;
+            width: 90%;
+            margin: 20px;
+            padding: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .container:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        h1 {
+            font-size: 24px;
+            color: #0077b6;
+            margin-bottom: 20px;
+        }
+        img {
+            display: block;
+            margin: 0 auto 15px;
+            width: 60%;
+            border-radius: 50%;
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+        p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 15px;
+        }
+        li {
+            padding: 10px 0;
+            border-top: 1px solid #eee;
+            transition: background 0.3s;
+        }
+        li:first-child {
+            border-top: none;
+        }
+        li:hover {
+            background: #f7faff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Friend 1 - Internal CSS</h1>
+        <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.15752-9/448323640_1233880240955926_511384411788348582_n.jpg?stp=dst-jpg_s403x403&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEtgPJybzrK4LQJfKBAKvt4BF70vFx2RXEEXvS8XHZFcR7hhzwz1L7C0Er41pqG8HwX64vEWJGW4w0rv23UsWSw&_nc_ohc=xfACw5DKP8YQ7kNvgFh0Uyx&_nc_ht=scontent.fmnl17-1.fna&oh=03_Q7cD1QGwP9D_vbFv6HMCEXWgv0463NRjdzCPSQ6fofXidP8AhQ&oe=6693A869" alt="Friend 2">
+        <p>Carlo Rivera</p>
+        <ul>
+            <li>Enjoys reading</li>
+            <li>Loves Medical Infos</li>
+            <li>Loves Gaming</li>
+        </ul>
+    </div>
+</body>
+</html>
